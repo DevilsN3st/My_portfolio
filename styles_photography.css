@@ -1,0 +1,165 @@
+
+:root{
+    --lp : #32424A;
+    --mst : #E6E6FA;
+    --pgg : #EDEDED;
+}
+.neonbg{
+    max-width: 100%;
+}
+.top{
+    display: flex;
+    padding: 25%;
+    background-color: var(--lp);
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+}
+.top-text{
+    margin: 0px;
+    padding : 2% 10%;
+    border-style:dashed;
+    border-color: white ;
+    color : white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 70%;
+}
+.page{
+    background-color: white ;
+    padding-top : 20px;
+    padding-bottom : 20px;
+}
+.head{
+    margin: 0px;
+    color : black;
+    padding:2%; 
+    display : flex; 
+    justify-content: center;  
+    align-items: center;
+}
+
+.gallery{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery0{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.it1{
+    border : 0px;
+    border-color: white;
+}
+.it2{
+    border : 0px;
+    border-color: white;
+}
+.it3{
+    align-self: flex-start;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+.it4{
+    align-self: flex-start;
+    flex-wrap: wrap;
+    border-style: solid;
+    
+}
+.it5{
+    align-self: flex-start;
+    flex-wrap: wrap;
+    border-style: solid;
+    
+}
+.it6{
+    align-self: flex-start;
+    flex-wrap: wrap;
+    border-style: solid;
+
+}
+.img1{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img2{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img3{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img4{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img5{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img6{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+.img1{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+
+.footer_img{
+    margin : 8px;
+    height : 24px;
+    width  : 24px;
+}
+img{
+    margin : 0px;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    margin : 0px;
+    color: #E6E6FA;
+    background-color : #292b2c;
+}
+body{
+    margin : 0px;
+}
+h1{
+    margin : 0px;
+}
+p{
+    margin : 0px;
+}
