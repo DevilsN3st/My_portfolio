@@ -1,8 +1,17 @@
 
+@font-face {
+    font-family: roboto-slab;
+    src: url(https://fonts.google.com/specimen/Roboto+Slab#standard-styles);
+}
+@font-face {
+    font-family: calluna ;
+    src: url(https://fonts.adobe.com/fonts/calluna?ref=tk.com);
+}
 :root{
     --lp : #32424A;
     --mst : #E6E6FA;
     --pgg : #EDEDED;
+    --charcoal : #303437;
 }
 .jumbotron{
     /* background-image : url('images/HEADER_BG.png');
@@ -39,7 +48,28 @@
     padding-top : 20px;
     padding-bottom : 20px;
 }
+.skills{
+    color: charcoal;
+    padding: 5% 0%;
+}
 
+.prof{
+    display: flex;
+    row-gap: 50px;
+    justify-content: center;
+}
+.prof-img{
+    word-wrap: bottom;
+    height: 100px;
+}
+.prof-text{
+    display: flex;
+    font-family: roboto-slab;
+    color: #613659;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
 .footer_img{
     margin : 8px;
     height : 24px;
@@ -63,4 +93,5 @@ h1{
 }
 p{
     margin : 0px;
+    font-family: calluna;
 }
